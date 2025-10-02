@@ -1,5 +1,7 @@
 # AWS EC2 with Terraform (demo-terraform)
 
+Challenge: https://roadmap.sh/projects/iac-digitalocean
+
 This configuration creates a single Ubuntu EC2 instance with a public IP and SSH access using your existing SSH key. It uses your AWS default VPC and a default subnet.
 
 ## Prerequisites
