@@ -1,0 +1,57 @@
+# Terraform directories
+.terraform/
+
+# Terraform state
+terraform.tfstate
+terraform.tfstate.*
+terraform.tfstate.d/
+
+# Crash logs
+crash.log
+crash.*.log
+
+# Local overrides
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Sensitive var files
+*.tfvars
+*.tfvars.json
+
+# Local/temporary plan files
+tfplan
+*.tfplan
+plan.out
+
+# Terragrunt
+.terragrunt-cache/
+
+# IDE/editor
+.idea/
+.vscode/
+*.iml
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Env files
+.env
+.env.*
+.envrc
+
+# Logs
+*.log
+
+# Temp files
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Python virtual environments (if used locally)
+.venv/
+venv/
